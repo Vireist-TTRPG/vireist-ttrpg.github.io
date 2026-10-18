@@ -20,7 +20,8 @@
           "description": "Интерактивная почтовая система для вселенной SCP.",
           "tags": ["SCP Foundation", "Интерактив"],
           "status": "active",
-          "url": "/foundation-mail"
+          "url": "/foundation-mail",
+          "cover": "assets/covers/foundation-mail.png"
         }
       ]
     },
@@ -37,7 +38,8 @@
           "description": "Журналы наблюдений и логи системы потребительного импланта 'Око Бога' серии И.",
           "tags": ["Изотопный Ярус", "Научная фантастика"],
           "status": "active",
-          "url": "eye-god-logs"
+          "url": "eye-god-logs",
+          "cover": "assets/covers/eye-god-logs.png"
         }
       ]
     }
