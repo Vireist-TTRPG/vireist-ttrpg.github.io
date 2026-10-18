@@ -1,0 +1,45 @@
+{
+  "config": {
+    "nick": "VIREIST",
+    "subtitle": "МАТЕРИАЛЫ",
+    "overline": "АРХИВ ПРОЕКТОВ",
+    "heroText": "Коллекция сайтов, инструментов и документации для настольных ролевых игр.",
+    "themeKey": "vireist-theme"
+  },
+  "categories": [
+    {
+      "id": "scp-foundation",
+      "title": "SCP Foundation",
+      "description": "Материалы по вселенной Фонда.",
+      "projects": [
+        {
+          "id": "foundation-mail",
+          "num": "001",
+          "title": "Foundation Mail",
+          "type": "Сайт",
+          "description": "Интерактивная почтовая система для вселенной SCP.",
+          "tags": ["SCP Foundation", "Интерактив"],
+          "status": "active",
+          "url": "/foundation-mail"
+        }
+      ]
+    },
+    {
+      "id": "isotope-tier",
+      "title": "Изотопный Ярус",
+      "description": "Материалы по авторскому, киберпанк сеттингу.",
+      "projects": [
+        {
+          "id": "eye-god-logs",
+          "num": "002",
+          "title": "Eye God Logs",
+          "type": "Логи",
+          "description": "Журналы наблюдений и логи системы потребительного импланта 'Око Бога' серии И.",
+          "tags": ["Изотопный Ярус", "Научная фантастика"],
+          "status": "active",
+          "url": "eye-god-logs"
+        }
+      ]
+    }
+  ]
+}

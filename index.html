@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Материалы — Vireist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Oswald:wght@500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ШАПКА -->
+<header class="topbar">
+    <a class="logo" href="/">
+        <span class="logo-v">V</span>
+        <span class="logo-text">
+                <strong id="logo-nick">VIREIST</strong>
+                <small id="logo-sub">МАТЕРИАЛЫ</small>
+            </span>
+    </a>
+    <nav class="nav" id="main-nav">
+        <a href="https://vireist.ru">Главная</a>
+        <a href="#categories">Категории</a>
+        <a href="#all-projects">Все проекты</a>
+    </nav>
+    <div class="topbar-actions">
+        <button class="burger" id="nav-open" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+        <button class="theme-btn" id="theme-btn" aria-label="Переключить тему">☀</button>
+    </div>
+</header>
+
+<!-- МОБИЛЬНОЕ МЕНЮ -->
+<div class="drawer" id="nav-drawer" aria-hidden="true">
+    <div class="drawer-head">
+        <span class="drawer-title">Навигация</span>
+        <button class="drawer-close" id="nav-close" aria-label="Закрыть">×</button>
+    </div>
+    <div class="nav-drawer-list" id="nav-drawer-list"></div>
+</div>
+<div class="drawer-backdrop" id="nav-backdrop"></div>
+
+<main>
+    <!-- ГЕРОЙ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <div class="overline" id="hero-overline">АРХИВ ПРОЕКТОВ</div>
+                    <h1 class="display">Материалы</h1>
+                    <p class="hero-text" id="hero-text"></p>
+                    <div class="btn-row">
+                        <a class="btn" href="#categories">Каталог</a>
+                        <a class="btn ghost" href="https://vireist.ru">Назад на vireist.ru</a>
+                    </div>
+                    <span class="stamp" id="hero-stamp">TTRPG · THRILLER · DRAMA</span>
+                </div>
+                <div class="hero-right">
+                    <div class="stats" id="stats"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФИЛЬТРЫ ПО КАТЕГОРИЯМ -->
+    <section class="section" id="categories">
+        <div class="container">
+            <div class="sec-head">
+                <span class="sec-label">КАТЕГОРИИ</span>
+                <h2>Сеттинги и вселенные</h2>
+            </div>
+            <div class="chip-group" id="category-filters"></div>
+        </div>
+    </section>
+
+    <!-- ВСЕ ПРОЕКТЫ -->
+    <section class="section" id="all-projects">
+        <div class="container">
+            <div class="sec-head">
+                <span class="sec-label">КАТАЛОГ</span>
+                <h2>Все проекты</h2>
+                <span class="sec-count" id="projects-count"></span>
+            </div>
+            <p class="section-note" id="projects-note"></p>
+
+            <!-- Контейнер для карточек -->
+            <div id="catalog" class="grid-cards"></div>
+        </div>
+    </section>
+</main>
+
+<!-- ПОДВАЛ -->
+<footer class="footer">
+    <div class="container">
+        <p id="license-line"></p>
+        <p>© <span id="year"></span> <span id="footer-nick">VIREIST</span> · Все материалы публикуются под лицензией <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></p>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
